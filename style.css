@@ -1,5 +1,31 @@
 html {
-	background: pink ;
+	background: #cad0d4; 
 }
 
-h1 { color: orchid; }
+h1 {color: white; font-family: Helvetica, sans-serif;font-style: normal ; font-size: 85px; }
+
+p{color: white ;font-family: Helvetica, sans-serif; font-style: normal; font-size: 40px;}
+
+.weekone { font-family: Arial, Helvetica, sans-serif; font-size: 30px; color: ;
+	border: solid white 10px ; border-style: solid; width: 150px; border-style; background-color: white; }
+
+.weektwo { font-family: Arial, Helvetica, sans-serif; font-size: 30px; color: ;
+	border: solid white 10px ; border-style: solid; width: 150px; border-style; background-color: white; }
+
+.weekthree { font-family: Arial, Helvetica, sans-serif; font-size: 30px; color: ;
+	border: solid white 10px ; border-style: solid; width: 150px; border-style; background-color: white; }
+
+.weekfour { font-family: Arial, Helvetica, sans-serif; font-size: 30px; color: ;
+	border: solid white 10px ; border-style: solid; width: 150px; border-style; background-color: white; }
+	
+	
+	
+
+
+
+
+
+
+.projectone { font-family: Arial, Helvetica, sans-serif; font-size: 30px; color: ;
+	border: solid white 10px ; border-style: solid; width: 150px; border-style; background-color: white; 
+	float: right;position:relative ; bottom: 140px;}
