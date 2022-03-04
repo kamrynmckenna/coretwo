@@ -1,31 +1,18 @@
 html {
-	background: #cad0d4; 
+	background: white; 
 }
 
-h1 {color: white; font-family: Helvetica, sans-serif;font-style: normal ; font-size: 85px; }
+.kamilogo{ 
+	display: block;
+	margin-left: 1000px;
 
-p{color: white ;font-family: Helvetica, sans-serif; font-style: normal; font-size: 40px;}
+}
 
-.weekone { font-family: Arial, Helvetica, sans-serif; font-size: 30px; color: ;
-	border: solid white 10px ; border-style: solid; width: 150px; border-style; background-color: white; }
+p{color: #CBC3E3 ;font-family: p22 bayer universal; font-style: normal; font-size: 40px; text-align: right}
 
-.weektwo { font-family: Arial, Helvetica, sans-serif; font-size: 30px; color: ;
-	border: solid white 10px ; border-style: solid; width: 150px; border-style; background-color: white; }
+a:link{color: #CBC3E3;}
 
-.weekthree { font-family: Arial, Helvetica, sans-serif; font-size: 30px; color: ;
-	border: solid white 10px ; border-style: solid; width: 150px; border-style; background-color: white; }
+.coursework {font-family: p22 bayer universal;font-size: 40px; text-align: right ; color: #CBC3E3; margin-top: 200px; }
 
-.weekfour { font-family: Arial, Helvetica, sans-serif; font-size: 30px; color: ;
-	border: solid white 10px ; border-style: solid; width: 150px; border-style; background-color: white; }
-	
-	
-	
+.studio {font-family: p22 bayer universal;font-size: 40px; text-align: right; color: #CBC3E3;}
 
-
-
-
-
-
-.projectone { font-family: Arial, Helvetica, sans-serif; font-size: 30px; color: ;
-	border: solid white 10px ; border-style: solid; width: 150px; border-style; background-color: white; 
-	float: right;position:relative ; bottom: 140px;}
