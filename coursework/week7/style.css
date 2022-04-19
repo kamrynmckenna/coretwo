@@ -1,0 +1,169 @@
+
+
+.whitelogo img{ display:block;
+	text-align: center;	
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  width: 980px;}
+
+.howto img{display: inline-block;
+vertical-align: left;
+width: 400px;}
+
+.start img{display: inline-block;
+vertical-align: right;
+margin-left: auto;
+width: 400px;
+white-space: nowrap;}
+
+.music{
+text-align: center;
+padding-top: 170px;}
+
+.audio{display: block;
+text-align: center;
+padding-top: 40px;}
+
+
+
+
+
+a{text-decoration: none; color: white;}
+
+p{font-family: Genty Demo; text-align: center; font-size: 100px; color: #cdc3de; margin-top: ;}
+
+.grid-container {
+    display: grid;
+  gap: 30px;
+  width: 1000px;
+  height: 500px;
+  padding-left: 190px;
+ padding-bottom: 40px;
+ padding-top: -5px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-container>div {
+	font-family: Genty Demo;
+  text-align: center;
+  padding: 20px 0;
+  padding-top: 70px;
+  font-size: 85px;
+  border-radius: 10px;
+  color: #fff;
+ 
+
+}
+
+
+
+.item1 {
+  
+  background-color: #cdc3de;
+}
+
+.item2 {
+ 
+  background-color: #cdc3de;
+
+}
+
+
+.item3 { 
+ 
+  background-color:#cdc3de;  }
+
+.item4 { background-color: #cdc3de;
+}
+
+.item5 {
+  
+  background-color: #cdc3de;}
+
+.item6 {
+
+  background-color: #cdc3de;
+}
+
+
+
+.white img{display: inline-block;
+vertical-align: center;
+width: 400px; white-space: nowrap;}
+
+.red img{display: inline-block; 
+  vertical-align: left; width:  400px;white-space: nowrap;}
+
+
+
+  .column {
+   
+  float: left;
+  width: 33.33%;
+}
+
+.row { margin-left: 220px;}
+
+
+.pinkfit1 {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+padding-top: 80px;}
+
+.pinkfit2 {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+padding-top: 80px;}
+
+.right img{display: inline-block;
+vertical-align: right;
+margin-left: auto;
+width: 200px;
+white-space: nowrap;
+padding-top: -500px;}
+
+.left img{display: inline-block;
+vertical-align: left;
+width: 200px;}
+
+.fred1 {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+padding-top: 80px;}
+
+.fred2 {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+padding-top: 80px;}
+
+.fcream1 {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+padding-top: 80px;}
+.fcream2 {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+padding-top: 80px;}
+
+.gg1 {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+padding-top: 80px;}
+
+.gg2 {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+padding-top: 80px;}
+
+
+
+
