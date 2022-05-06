@@ -1,5 +1,7 @@
 html{ background-color: #CBC3E3;}
 
-a:link{color: white;}
-.projectone{font-family: p22 bayer universal; color: white; font-size: 90px;}
-.projecttwo{font-family: p22 bayer universal; color: white; font-size: 90px; margin-top: 40px;}
+a{text-decoration: none;color: white;}
+.projectone{font-family: p22 bayer universal; color: white; font-size: 90px; text-decoration: none;}
+.projecttwo{font-family: p22 bayer universal; color: white; font-size: 90px; margin-top: 40px; text-decoration: none;}
+.projectthree{font-family: p22 bayer universal; color: white; font-size: 90px; margin-top: 40px; text-decoration: none;}
+.arrow {width: 50px; height: 90px; padding-top: 90px;}

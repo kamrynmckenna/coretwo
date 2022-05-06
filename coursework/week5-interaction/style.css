@@ -1,0 +1,93 @@
+.container {  display: grid;
+  grid-template-columns: 0.8fr 1.5fr 0.7fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 15px 15px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "side-1 title side-2"
+    "article2 article-center article3"
+    "article4 article-center2 article5";
+}
+
+
+
+.title { grid-area: title; text-align: center; 
+}
+
+.vogue {font-family: Didot; font-size: 80px; text-align: center;
+padding-bottom: 50px;
+      color: black;
+      font-weight: 700;
+      text-shadow: 5px 5px 0px #eb452b, 
+                  10px 10px 0px #efa032, 
+                  15px 15px 0px #46b59b, 
+                  20px 20px 0px #017e7f, 
+                  25px 25px 0px #052939, 
+                  30px 30px 0px #c11a2b, 
+                  35px 35px 0px #c11a2b, 
+                  40px 40px 0px #c11a2b, 
+                  45px 45px 0px #c11a2b;}
+
+
+
+
+
+
+.header{ grid-area: title;text-align: center;font-family: sans-serif; font-size: 20px;}
+
+
+.article-center { grid-area: article-center; 
+display: flex ; flex-wrap: wrap; margin-top: -410px; }
+.title1 {grid-area:  article-center;text-align: left;font-family: sans-serif; font-size: 50px; padding-top: 20px;}
+
+
+.article2 { grid-area: article2; 
+ margin-top:-410px ;text-align: left;font-family: sans-serif; font-size: 30px;}
+
+
+.image:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+ }
+.img:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+ }
+
+ .img2:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+ }
+
+ .img3:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+ }
+
+ .img4:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+ }
+
+
+.article3 { grid-area: article3; margin-top:-410px ;text-align: left;font-family: sans-serif; font-size: 30px;}
+
+.article4 { grid-area: article4; margin-top:-580px ; text-align: left;font-family: sans-serif; font-size: 30px;}
+
+.article5 { grid-area: article5; margin-top:-650px ; text-align: left;font-family: sans-serif; font-size: 30px;}
+
+.article-center2 { grid-area: article-center2; }
+
+.side-1 { grid-area: side-1; }
+
+.side-2 { grid-area: side-2; }

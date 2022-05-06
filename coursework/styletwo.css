@@ -1,8 +1,16 @@
 html{background-color: #CBC3E3;}
 
 
-a:link{color: white;}
+a{text-decoration: none; color: white; }
 
 .weekfour{font-family: p22 bayer universal; color: white; font-size: 90px;}
 
 .weekfive{font-family: p22 bayer universal; color: white; font-size: 90px; margin-top: 50px;}
+
+.weekeight{font-family: p22 bayer universal; color: white; font-size: 90px; margin-top: 50px;}
+
+.weektwelve{font-family: p22 bayer universal; color: white; font-size: 90px; margin-top: 50px;}
+
+.weekthirteen{font-family: p22 bayer universal; color: white; font-size: 90px; margin-top: 50px;}
+
+.arrow {width: 50px; height: 90px; padding-top: 90px;}

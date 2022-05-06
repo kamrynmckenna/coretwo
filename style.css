@@ -10,9 +10,9 @@ html {
 
 p{color: #CBC3E3 ;font-family: p22 bayer universal; font-style: normal; font-size: 40px; text-align: right}
 
-a:link{color: #CBC3E3;}
+a{color: #CBC3E3; text-decoration: none;}
 
 .coursework {font-family: p22 bayer universal;font-size: 40px; text-align: right ; color: #CBC3E3; margin-top: 200px; }
 
-.studio {font-family: p22 bayer universal;font-size: 40px; text-align: right; color: #CBC3E3;}
+.studio {font-family: p22 bayer universal;font-size: 40px; text-align: right; color: #CBC3E3; padding-top: 30px;}
 

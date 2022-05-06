@@ -1,13 +1,14 @@
-
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) { 
 
 body{background-color: black;}
 
-header{color: floralwhite  ;position: center; font-size: 60px; text-align: center;}
-
-
-p {color: floralwhite; font-size: 30px;}
-
-.sleep {color: floralwhite; font-size: 60px; text-align: center;text-shadow: 10px 10px 20px white; }
-
-.insomnia {color: floralwhite;font-size: 60px; text-align: center;text-shadow: 10px 10px 20px white;}
-
+svg {
+  fill: white;
+  height: auto;
+  max-width: 85vmin;
+  transform-origin: center;
+  width: 85%;
+}
