@@ -5,9 +5,10 @@
        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet"  href="./style.css"> 
         <title> KAMI'S DREAM CLOSET </title>
-        <script src="myscripts.js"></script>
+        <script src="script.js"></script>
     </head>
 <body style="background-color: #cdc3de;">
+
 
 
 
@@ -16,27 +17,45 @@
 <img src="kamicloset.png" style="float: center"> </div>
 
 
-<div class="howto"> <a href="instructions.html">
-    <img src="howto.png" style="float: left" > </a> </div>
-
-
-<div class="start"> <a href="homepage.html">
-    <img src="startbutton.png" style="float: right"> </a>
-</div>
-
 <div class="music">
+<script>
+    var colors = ["lightblue", "lightpink", "#b4d3b2","#cdc3de"];
+    var colorIndex = 0;
+    function changeColor() {
+        var col = document.getElementById("body");
+        if( colorIndex >= colors.length ) {
+            colorIndex = 0;
+        }
+        col.style.backgroundColor = colors[colorIndex];
+        colorIndex++;
+    }
+</script>
+    <body id='body'>
+    <button onclick="changeColor();"type="reset" > <img src="pixelhearticon.png"></button>
+    </body>
+
 
 <audio autoplay controls>
     <source src="8ibt.mp3" type="audio/mpeg">
 </audio>
 
+
+<div class="howto" style="float: left"> 
+
+    <a href="instructions.html">
+    How to Play </a> </div>
+
+
+<div class="start" style="float: right; left: 20px;"> <a href="page1.html">
+    Click to Start! </a>
 </div>
 
 
-    <div class="slidecontainer">
-  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+
 </div>
 
+
+   
 
 
 

@@ -1,6 +1,56 @@
 img{display: none;}
 img:first-of-type{display: block;}
 
+.whitelogo img{ display:block;
+  text-align: center; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  width: 980px;}
+
+
+.music{
+text-align: center;
+padding-top: 150px;}
+
+.audio{display: block;
+text-align: center;
+padding-top: 40px;}
+
+a{text-decoration: none; color: white;}
+
+.start{font-family: Terminal Grotesque Open; color: white; font-size: 60px; text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+.howto{font-family: Terminal Grotesque Open; color: white; font-size: 60px; text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.instructions{font-family: Terminal Grotesque Open; color: white; font-size: 200px; text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow{
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ffff, 0 0 40px #ffff, 0 0 50px #ffff, 0 0 60px #ffff, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+
+
+
+
+
+
+
 
 .slidecontainer {
   width: 100%; 
@@ -39,35 +89,22 @@ img:first-of-type{display: block;}
 }
 
 
+.{
+    margin-left: 200%;
+    margin-right: 25%;
+    bottom:0;
+   position:fixed;
+   width:50%;
+ }
 
 
 
 
 
-
-
-
-.whitelogo img{ display:block;
-	text-align: center;	
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 100px;
-  width: 980px;}
-
-.howto img{display: inline-block;
-vertical-align: left;
-width: 400px;}
-
-
-.start img{display: inline-block;
-vertical-align: right;
-margin-left: auto;
-width: 400px;
-white-space: nowrap;}
 
 .music{
 text-align: center;
-padding-top: 170px;}
+padding-top: 150px;}
 
 .audio{display: block;
 text-align: center;
@@ -77,32 +114,6 @@ padding-top: 40px;}
 
 
 
-a{text-decoration: none; color: white;}
-
-p{font-family: Genty Demo; text-align: center; font-size: 100px; color: #cdc3de; margin-top: ;}
-
-.grid-container {
-    display: grid;
-  gap: 30px;
-  width: 1000px;
-  height: 500px;
-  padding-left: 190px;
- padding-bottom: 40px;
- padding-top: -5px;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.grid-container>div {
-	font-family: Genty Demo;
-  text-align: center;
-  padding: 20px 0;
-  padding-top: 70px;
-  font-size: 85px;
-  border-radius: 10px;
-  color: #fff;
- 
-
-}
 
 
 
@@ -151,66 +162,25 @@ width: 400px; white-space: nowrap;}
   width: 33.33%;
 }
 
-.row { margin-left: 220px;}
 
 
-.pinkfit1 {display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-padding-top: 80px;}
+.container {
+  
+}
 
-.pinkfit2 {display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-padding-top: 80px;}
+.piece-container {
+  
+  max-width: 800px;
+}
 
-.right img{display: inline-block;
-vertical-align: right;
-margin-left: auto;
-width: 200px;
-white-space: nowrap;
-padding-top: -500px;}
-
-.left img{display: inline-block;
-vertical-align: left;
-width: 200px;}
-
-.fred1 {display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-padding-top: 80px;}
-
-.fred2 {display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-padding-top: 80px;}
-
-.fcream1 {display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-padding-top: 80px;}
-.fcream2 {display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-padding-top: 80px;}
-
-.gg1 {display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-padding-top: 80px;}
-
-.gg2 {display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-padding-top: 80px;}
+.piece {
+  border: 1px solid #e7e7e7;
+  box-shadow: 0 4px 8px 0 hsla(300, 4%, 80%, 0.3);
+  width: 200px;
+  padding: 10px;
+  border-radius: 2px;
+  position: relative;
+}
 
 
 

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+   <html>
+   <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+       <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	
+    <link rel="stylesheet" type="text/css" href="style.css">
+        <title> KAMI'S DREAM CLOSET </title>
+        
+    </head>
+<body style="background-color: #cdc3de">
+
+<script>
+    var colors = ["lightblue", "lightpink", "#b4d3b2","#cdc3de"];
+    var colorIndex = 0;
+    function changeColor() {
+        var col = document.getElementById("body");
+        if( colorIndex >= colors.length ) {
+            colorIndex = 0;
+        }
+        col.style.backgroundColor = colors[colorIndex];
+        colorIndex++;
+    }
+</script>
+    <body id='body'>
+    <button onclick="changeColor();"type="reset" > <img src="pixelhearticon.png"></button>
+    </body>
+
+<audio autoplay controls style=" float: right;">
+    <source src="8ibt.mp3" type="audio/mpeg">
+</audio>
+
+
+<main class="container" style="font-family: Terminal Grotesque Open; color: white; ">
+      <h1></h1>
+      <label for="color-filter" style="float:left;"> Select a color scheme! &nbsp;&nbsp; </label>
+      <select id="color-filter" style="float: left;left: 50px;">
+        <option value="all" selected>All</option>
+        <option value="black"> Black </option>
+        <option value="white"> White </option>
+        <option value="red"> Red </option>
+        <option value="pink"> Pink </option>
+       
+        <option value="blue"> Blue </option>
+        <option value="green"> Green </option>
+
+      </select>
+
+      <div id="topCarousel" style="width: 400px;float: left;left: 170px;"> 
+      </div>
+      <div id="bottomCarousel" style="width: 400px; float: right;right: 200px;">        
+      </div>
+      <div id="accessoriesCarousel" style="width: 400px; float:left; position: absolute ; top: 500px; left: 400px;"> </div>
+      <div id="shoesCarousel" style="width: 400px; float: right;position: absolute ; top: 500px;right: 210px;">  </div>
+     
+
+
+
+    </main>
+
+
+
+    <script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+    </html>
